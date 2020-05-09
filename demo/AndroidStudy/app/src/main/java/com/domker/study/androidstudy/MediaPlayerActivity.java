@@ -29,7 +29,7 @@ public class MediaPlayerActivity extends AppCompatActivity {
         surfaceView = findViewById(R.id.surfaceView);
         player = new MediaPlayer();
         try {
-            player.setDataSource(getResources().openRawResourceFd(R.raw.bytedance));
+            player.setDataSource(getResources().openRawResourceFd(R.raw.ynw));
             holder = surfaceView.getHolder();
             holder.addCallback(new PlayerCallBack());
             player.prepare();

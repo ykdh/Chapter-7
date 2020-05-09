@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
                         requestPermissions(mPermissionsArrays, REQUEST_PERMISSION);
                     } else {
-                        // TODO
+                        // TODO6
                     }
                 } else {
                     Toast.makeText(MainActivity.this, "已经获取所有所需权限", Toast.LENGTH_SHORT).show();
